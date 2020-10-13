@@ -8,11 +8,7 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-<<<<<<< Updated upstream
       var name = $("input#namme").val();
-=======
-      var name = $("input#name").val();
->>>>>>> Stashed changes
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var message = $("textarea#message").val();
